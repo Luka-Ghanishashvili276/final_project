@@ -1,0 +1,321 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    width: 1825px;
+}
+header{
+    width: 100%;
+    max-width: 1200px;
+    height: 953px;
+    display: flex;
+}
+.navigation{
+    width: 474px;
+    height: 953px;
+    padding: 40px;
+    background-color: #af9a8c;
+}
+.banner{
+    max-width: 1700px;
+    width: 100%;
+    height: 930px;
+    display: flex;
+    position: relative;
+}
+.nav-section{
+    margin: 240px 150px;
+    text-align: center;
+}
+.nav-tabs{
+    margin-top: 50px;
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+}
+.nav-tabs:hover{
+    color: rgb(92, 91, 91);
+    transition: 0.3s;
+}
+.title{
+    display: flex;
+    position: absolute;
+    margin-left: 770px;
+    font-size: 50px;
+    margin-top: 200px;
+    font-weight: 400;
+    width: 861px;
+}
+.top-part{
+    margin-top: 85px;
+}
+.bot-part{
+    margin-top: 80px;
+}
+.data{
+    text-align: center;
+    width: 1825px;
+}
+#firstp{
+    font-size: 72px;
+    font-weight: 700;
+    color: #5D534A;
+
+}
+#secondp{
+    height: 102px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #5D534A;
+}
+.data-numbers{
+    font-size:63px ;
+    font-weight: 700;
+    color: #878987;
+}
+.company-stats{
+    display: flex;
+    width: 1160px;
+    height: 82px;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.stats-numbers{
+    font-size: 50px;
+    font-weight: 700;
+    color: #878987;
+}
+.stats-text{
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #878987;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section-title{
+    font-size: 72px;
+    font-weight: 700;
+    color: #5D534A;
+    text-align: center;
+    margin-top: 150px;
+    width: 1825px;
+}
+.tab-title{
+    margin-top: 150px;
+}
+.tab-info{
+    font-size: 28px;
+    font-weight: 400;
+    color: #5D534A;
+    text-align: center;
+    margin-top: 35px;
+    width: 1825px;
+}
+.offer-container{
+    width: 1446px;
+    height: 519px;
+    margin: auto;
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.rent{
+    width: 450px;
+    height: 519px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.guarantee{
+    width: 450px;
+    height: 519px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.sales{
+    width: 450px;
+    height: 519px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.frame{
+    width: 450px;
+    height: 464px;
+    border: 1px solid rgba(0, 0, 0, 0.57);
+    background: #D3E0DC;
+    margin-top: 55px;
+    border-radius: 15px;
+}
+.circle{
+    width: 155px;
+    height: 155px;
+    position: absolute;
+}
+.circle-pic{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: 38px;
+}
+.frame-title{
+    position: absolute;
+    margin-top: 195px;
+    color: #878987;
+    font-size: 36px;
+    font-weight: 700;
+}
+.frame-text{
+    position: absolute;
+    margin-top: 278px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    width: 324px;
+    color: #353A40;
+}
+#section-third{
+    margin: auto;
+}
+.feature-title{
+    margin-top: 250px;
+}
+.catalog-container{
+    width: 1900px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.properties{
+    width: 561px;
+    height: 667px;
+    border-radius: 15px;
+}
+.cozy-house{
+    background-image: url(../images/cozy.jpg) ;
+}
+.dining-room{
+    background-image: url(../images/dining.jpg);
+    background-repeat: no-repeat;
+}
+.bedroom{
+    background-image: url(../images/bedroom.jpg);
+}
+.properties-text{
+    color: #878987;
+    font-size: 36px;
+    font-weight: 700;
+    display: inline-block;
+}
+.text-container{
+    width: 1540px;
+    margin: auto;
+    text-align: center;
+    margin-top: 37px;
+}
+.dining-text{
+    margin: 0px 335px;
+}
+.contact-section{
+    width: 1292px;
+    height: 675px;
+    margin: auto;
+    margin-top: 200px;
+    background-image: url(../images/contact-pic.jpg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.20)
+}
+.contact-container{
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    background: rgba(243, 243, 243, 0.60);
+    backdrop-filter: blur(17.760618209838867px);
+    margin-left: 40px;
+    margin-bottom: -4px;
+    text-align: center;
+    padding: 50px 40px;
+}
+.form-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.form-info{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.first-form{
+    width: 400px;
+    height: 50px;
+    background-color: #929090;
+    outline: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.20);
+    padding-left: 15px;
+    font-size: 16px;
+}
+::placeholder{
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+.send-btn{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 40px;
+    cursor: pointer;
+    background-image: radial-gradient( circle 759px at -6.7% 50%,  rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );;
+}
+.footer{
+    margin-top: 200px;
+    height: 450px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #D3E0DC;
+}
+.footer-container{
+    width: 1400px;
+    margin: auto;
+}
+.footer-left{
+    width: 500px;
+    height: 400px;
+    padding: 50px 40px 50px 70px;
+    font-size: 28px;
+    line-height: 27px;
+    font-weight: 400;
+    display: inline-block;
+}
+.footer-left span{
+    font-size: 36px;
+    font-weight: 700;
+}
+.footer-right{
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+.footer-right p{
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 400px;
+}
+.dev{
+    text-align: center;
+    font-size: 16px;
+}

@@ -1,0 +1,8 @@
+@media(max-width:768px) {
+    .bedroom{
+        display: block;
+    }
+    .bedroom-text{
+        display: block;
+    }
+}
