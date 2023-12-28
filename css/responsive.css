@@ -1,8 +1,77 @@
-@media(max-width:768px) {
+@media(max-width:1200px) {
+    .offer-container{
+        padding: 0px 100px;
+    }
+    .sales{
+       margin: auto;
+       margin-top: 30px;
+    }
+    #section-third{
+        margin-top: 625px;
+    }
     .bedroom{
+        margin-top: 100px;
+    }
+    .text-container{
+        display: none;
+    }
+    .properties-text{
+        color: rgb(43, 43, 43);
+    }
+    .footer-right{
+        margin-left: 100px;
+    }
+}
+@media(max-width:768px){
+    .navigation{
+        display: none;
+    }
+    .img-container{
+        background-size: cover;
+    }
+    .loyal-customers{
         display: block;
     }
-    .bedroom-text{
-        display: block;
+    .nav-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #section-third{
+        margin-top: 1200px;
+    }
+    .guarantee, .rent{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .stats-text{
+        width: 100%;
+        max-width: 260px;
+    }
+    .company-stats{
+        max-width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .stats-second-line{
+        margin-top: 50px;
+    }
+    .properties{
+        margin-top: 60px;
+    }
+    .footer{
+        height: 732px;
+    }
+    .footer-right{
+        margin-top: 30px;
+    }
+    .dev{
+        margin-top:50px;
+    }
+    .footer-left{
+        padding: 50px 40px 50px 100px;
+    }
+    .contact-container{
+        margin: auto;
     }
 }
