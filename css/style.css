@@ -31,7 +31,7 @@ body {
     position: relative;
   }
   .nav-section {
-    margin: 240px 150px;
+    margin: 130px 150px;
     text-align: center;
   }
   .nav-tabs {
@@ -84,7 +84,7 @@ body {
   
     max-width: 1160px;
     width: 100%;
-    height: 82px;
+    min-height: 82px;
     margin: auto;
     margin-top: 80px;
     justify-content: space-between;
@@ -228,10 +228,11 @@ body {
     background-image: url(../images/bedroom.jpg);
   }
   .properties-text {
-    color: #878987;
+    color: #000000;
     font-size: 36px;
     font-weight: 700;
     display: inline-block;
+    margin: 20px 0px 0px 30px
   }
   .text-container {
     max-width: 1540px;
@@ -261,8 +262,6 @@ body {
     border-radius: 15px;
     background: rgba(243, 243, 243, 0.6);
     backdrop-filter: blur(17.760618209838867px);
-    margin-left: 40px;
-    margin-bottom: -4px;
     text-align: center;
     padding: 50px 40px;
   }
@@ -277,7 +276,8 @@ body {
     margin-top: 35px;
   }
   .first-form {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 50px;
     background-color: #929090;
     outline: none;
@@ -312,7 +312,7 @@ body {
 }
 .footer {
     margin-top: 200px;
-    height: 450px;
+    min-height: 525px;
     width: 100%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -322,11 +322,15 @@ body {
     max-width: 1400px;
     width: 100%;
     margin: auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 50px 40px 50px 70px;
 }
 .footer-left {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 400px;
-    padding: 50px 40px 50px 70px;
     font-size: 28px;
     line-height: 27px;
     font-weight: 400;
@@ -337,16 +341,23 @@ body {
     font-weight: 700;
 }
 .footer-right {
-  display: inline-block;
-  margin-left: 350px;
-  margin-top: -200px;
+  display: flex;
 }
 .footer-right p {
-    margin-top: 50px;
+    line-height: 70px;
     font-size: 28px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 .dev {
     text-align: center;
     font-size: 16px;
 }  
+.contact-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.geolab-logo{
+  width: 100px;
+  margin: auto;
+}
